@@ -23,8 +23,8 @@ const LikeSection = props => {
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className='like-number'>{numberOfLikes} likes</p>
-    </div>
+      <p className='like-number'>{numberOfLikes} likes</p> 
+    </div> // above we changed 100 likes to {numberOfLikes}
   );
 };
 
